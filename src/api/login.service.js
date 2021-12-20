@@ -1,5 +1,4 @@
-// const apiHost = process.env.API_HOST;
-const apiHost = "http://localhost:8009";
+const apiHost = process.env.API_HOST;
 
 export const login = (data) => {
   const formData = new FormData();
